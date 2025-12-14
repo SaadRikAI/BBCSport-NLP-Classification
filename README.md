@@ -28,20 +28,22 @@ Saving/loading models for real-world use
 
 Clean, reproducible repository structure
 
-📂 Repository Structure
+📁 Repository Structure
+-----------------------
 
 bbc-sport-nlp-classification/
 │
 ├── notebooks/
-│   ├── 01_bbc_classification.ipynb     # Full training pipeline
-│   └── 02_bbc_prediction.ipynb         # Predict new articles
+│   ├── 01_bbc_classification.ipynb      # Full training pipeline
+│   └── 02_bbc_prediction.ipynb          # Predict new articles
 │
 ├── data/
-│   └── raw/                            # BBCSport dataset
+│   └── raw/
+│       └── BBCSport/                    # Original dataset (5 sport categories)
 │
 ├── models/
-│   ├── bbc_svm_model.pkl               # Trained classifier
-│   └── bbc_vectorizer.pkl              # TF-IDF vectorizer
+│   ├── bbc_svm_model.pkl                # Trained classifier
+│   └── bbc_vectorizer.pkl               # TF-IDF vectorizer
 │
 ├── README.md
 └── .gitignore
