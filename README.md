@@ -28,9 +28,9 @@ Saving/loading models for real-world use
 
 Clean, reproducible repository structure
 
-📁 Repository Structure
------------------------
+## 📁 Repository Structure
 
+```text
 bbc-sport-nlp-classification/
 │
 ├── notebooks/
@@ -47,6 +47,7 @@ bbc-sport-nlp-classification/
 │
 ├── README.md
 └── .gitignore
+```
 
 
 🧹 1. Text Preprocessing
